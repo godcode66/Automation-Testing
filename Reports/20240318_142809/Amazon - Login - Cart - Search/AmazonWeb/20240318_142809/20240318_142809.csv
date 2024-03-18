@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AmazonWeb,Chrome 122.0.0.0,,,18-03-2024 14:28:26,18-03-2024 14:56:25,27m - 58.726s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Valid,Chrome 122.0.0.0,,,18-03-2024 14:28:27,18-03-2024 14:33:02,4m - 35.342s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:28:28,18-03-2024 14:28:36,8.838s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:28:36,18-03-2024 14:28:44,7.206s,PASSED
+"click(findTestObject(""AmazonLogin/LoginInvalid/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 122.0.0.0,,,18-03-2024 14:28:44,18-03-2024 14:29:18,34.035s,PASSED
+"setText(findTestObject(""Object Repository/AmazonLogin/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""4halehaleha@gmail.com"")",Chrome 122.0.0.0,,,18-03-2024 14:29:18,18-03-2024 14:30:19,1m - 1.122s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 122.0.0.0,,,18-03-2024 14:30:19,18-03-2024 14:30:52,32.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonLogin/Page_Amazon Sign-In/input_Forgot your password_password""), ""A7XJPV0S6sEBacsgdop7Hw=="")",Chrome 122.0.0.0,,,18-03-2024 14:30:52,18-03-2024 14:31:22,30.531s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 122.0.0.0,,,18-03-2024 14:31:22,18-03-2024 14:31:52,30.445s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/AmazonLogin/Page_Amazon.com. Spend less. Smile more/a_us""), 0)",Chrome 122.0.0.0,,,18-03-2024 14:31:52,18-03-2024 14:32:29,36.283s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:32:29,18-03-2024 14:33:01,31.777s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:33:01,18-03-2024 14:33:02,1.359s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Invalid_Pass,Chrome 122.0.0.0,,,18-03-2024 14:33:02,18-03-2024 14:37:21,4m - 19.335s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:33:02,18-03-2024 14:33:05,2.474s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:33:05,18-03-2024 14:33:11,5.851s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 122.0.0.0,,,18-03-2024 14:33:11,18-03-2024 14:33:44,33.236s,PASSED
+"setText(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""4halehaleha@gmail.com"")",Chrome 122.0.0.0,,,18-03-2024 14:33:44,18-03-2024 14:34:44,1m - 0.617s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 122.0.0.0,,,18-03-2024 14:34:44,18-03-2024 14:35:16,31.835s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon Sign-In/input_Forgot your password_password""), ""F0oePG56Ngx2bQSoBGQKOg=="")",Chrome 122.0.0.0,,,18-03-2024 14:35:16,18-03-2024 14:35:47,30.441s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 122.0.0.0,,,18-03-2024 14:35:47,18-03-2024 14:36:20,33.298s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmazonLogin/LoginInvalid/Page_Amazon Sign-In/span_Your password is incorrect""), ""Your password is incorrect"")",Chrome 122.0.0.0,,,18-03-2024 14:36:20,18-03-2024 14:36:50,30.357s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:36:50,18-03-2024 14:37:21,30.174s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:37:21,18-03-2024 14:37:21,0.728s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Invalid_Email,Chrome 122.0.0.0,,,18-03-2024 14:37:21,18-03-2024 14:40:36,3m - 15.121s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:37:22,18-03-2024 14:37:24,2.566s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:37:24,18-03-2024 14:37:30,5.302s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/EmailInvalid/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 122.0.0.0,,,18-03-2024 14:37:30,18-03-2024 14:38:03,33.534s,PASSED
+"setText(findTestObject(""Object Repository/AmazonLogin/EmailInvalid/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""444halehaleha@gmail.com"")",Chrome 122.0.0.0,,,18-03-2024 14:38:03,18-03-2024 14:39:04,1m - 0.618s,PASSED
+"click(findTestObject(""Object Repository/AmazonLogin/EmailInvalid/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 122.0.0.0,,,18-03-2024 14:39:04,18-03-2024 14:39:35,31.758s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AmazonLogin/EmailInvalid/Page_Amazon Sign-In/span_We cannot find an account with that em_0dde72""), ""We cannot find an account with that email address"")",Chrome 122.0.0.0,,,18-03-2024 14:39:35,18-03-2024 14:40:06,30.266s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:40:06,18-03-2024 14:40:36,30.140s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:40:36,18-03-2024 14:40:36,0.552s,PASSED
+,,,,,,,
+Test Cases/Search Product/Search by keyword,Chrome 122.0.0.0,,,18-03-2024 14:40:37,18-03-2024 14:43:14,2m - 37.412s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:40:37,18-03-2024 14:40:39,2.313s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:40:39,18-03-2024 14:40:45,5.876s,PASSED
+"click(findTestObject(""Object Repository/Search/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""))",Chrome 122.0.0.0,,,18-03-2024 14:40:45,18-03-2024 14:41:15,30.428s,PASSED
+"setText(findTestObject(""Object Repository/Search/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Lenovo ideapad gaming 3"")",Chrome 122.0.0.0,,,18-03-2024 14:41:15,18-03-2024 14:42:16,1m - 0.640s,PASSED
+"click(findTestObject(""Object Repository/Search/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 122.0.0.0,,,18-03-2024 14:42:16,18-03-2024 14:42:53,36.951s,PASSED
+"click(findTestObject(""Object Repository/Search/Page_Amazon.com  Lenovo ideapad gaming 3/span_IdeaPad Gaming 3 15.6 FHD 120Hz Laptop_3af257""))",Chrome 122.0.0.0,,,18-03-2024 14:42:53,18-03-2024 14:43:04,11.514s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:43:04,18-03-2024 14:43:13,8.252s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:43:13,18-03-2024 14:43:14,1.181s,PASSED
+,,,,,,,
+Test Cases/Cart/Add to Cart,Chrome 122.0.0.0,,,18-03-2024 14:43:14,18-03-2024 14:50:44,7m - 29.882s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:43:14,18-03-2024 14:43:17,2.355s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:43:17,18-03-2024 14:43:24,7.487s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Cart/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=automotive-intl-ship"", true)",Chrome 122.0.0.0,,,18-03-2024 14:43:24,18-03-2024 14:44:56,1m - 31.419s,PASSED
+"setText(findTestObject(""Object Repository/Add Cart/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Brake"")",Chrome 122.0.0.0,,,18-03-2024 14:44:56,18-03-2024 14:45:56,1m - 0.816s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 122.0.0.0,,,18-03-2024 14:45:56,18-03-2024 14:46:39,42.251s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com  Brake/span_Front Brake Rotors and Pads Kit Compat_6632a7""))",Chrome 122.0.0.0,,,18-03-2024 14:46:39,18-03-2024 14:46:58,19.578s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Geekstop Front Brake Rotors_23f753/input_Shipping cost, delivery date, and ord_223673""))",Chrome 122.0.0.0,,,18-03-2024 14:46:58,18-03-2024 14:47:36,37.904s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Shopping Cart/input_Indonesia_a-button-input""))",Chrome 122.0.0.0,,,18-03-2024 14:47:36,18-03-2024 14:48:07,30.435s,PASSED
+"rightClick(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Shopping Cart/h1_Added to Cart""))",Chrome 122.0.0.0,,,18-03-2024 14:48:07,18-03-2024 14:48:42,35.459s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Shopping Cart/div_Added to Cart                          _039514""))",Chrome 122.0.0.0,,,18-03-2024 14:48:42,18-03-2024 14:49:12,30.296s,PASSED
+"click(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Shopping Cart/div_Added to Cart                          _039514_1""))",Chrome 122.0.0.0,,,18-03-2024 14:49:12,18-03-2024 14:49:43,30.247s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Add Cart/Page_Amazon.com Shopping Cart/h1_Added to Cart""), ""Added to Cart"")",Chrome 122.0.0.0,,,18-03-2024 14:49:43,18-03-2024 14:50:13,30.196s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:50:13,18-03-2024 14:50:43,30.269s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:50:43,18-03-2024 14:50:44,0.708s,PASSED
+,,,,,,,
+Test Cases/Search Product/Search by category,Chrome 122.0.0.0,,,18-03-2024 14:50:44,18-03-2024 14:56:25,5m - 40.778s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 14:50:44,18-03-2024 14:50:47,2.580s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 122.0.0.0,,,18-03-2024 14:50:47,18-03-2024 14:50:55,8.405s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 122.0.0.0,,,18-03-2024 14:50:55,18-03-2024 14:52:26,1m - 31.377s,PASSED
+"setText(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Muqaddimah"")",Chrome 122.0.0.0,,,18-03-2024 14:52:26,18-03-2024 14:53:27,1m - 0.463s,PASSED
+"click(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 122.0.0.0,,,18-03-2024 14:53:27,18-03-2024 14:54:05,38.124s,PASSED
+"click(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com  Muqaddimah/span_The Muqaddimah An Introduction to Hist_33a059""))",Chrome 122.0.0.0,,,18-03-2024 14:54:05,18-03-2024 14:54:45,40.146s,PASSED
+"rightClick(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com The Muqaddimah An Introduct_e14ac2/span_The Muqaddimah An Introduction to Hist_33a059""))",Chrome 122.0.0.0,,,18-03-2024 14:54:45,18-03-2024 14:55:16,30.672s,PASSED
+"click(findTestObject(""Object Repository/Search/Search by Category/Page_Amazon.com The Muqaddimah An Introduct_e14ac2/h1_The Muqaddimah An Introduction to Histor_b361d6""))",Chrome 122.0.0.0,,,18-03-2024 14:55:16,18-03-2024 14:55:47,30.763s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,18-03-2024 14:55:47,18-03-2024 14:56:17,30.546s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,18-03-2024 14:56:17,18-03-2024 14:56:25,7.380s,PASSED

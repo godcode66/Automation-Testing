@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_The Muqaddimah An Introduction to Histor_b361d6</name>
+   <tag></tag>
+   <elementGuidId>7b7a000a-4f7e-40bf-8b8d-a5f24e66acb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1[@id='title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;The Muqaddimah: An Introduction to History - Abridged Edition (Princeton Classics, 13) Paperback – Abridged, April 27, 2015&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>9ecd55ed-6056-4051-b07a-601007672933</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>a5203d62-9f46-409a-b240-4d76019a931f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-spacing-none a-text-normal</value>
+      <webElementGuid>f4009141-b914-46dc-87c9-3c241ea9603e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   The Muqaddimah: An Introduction to History - Abridged Edition (Princeton Classics, 13)     Paperback – Abridged, April 27, 2015   </value>
+      <webElementGuid>29cdddad-d7da-4fc0-ae62-3ba5f22f951b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;title&quot;)</value>
+      <webElementGuid>95612c12-df28-41dc-ab9d-128b7bf1bcc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h1[@id='title']</value>
+      <webElementGuid>a91b57c8-8480-4cdd-ac60-608aa39f9742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='titleblock_feature_div']/div/h1</value>
+      <webElementGuid>b169cfcd-8f4f-461b-bd42-54878ee20aa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Something went wrong. Please try your request again later.'])[1]/following::h1[1]</value>
+      <webElementGuid>f57fe171-fe42-43fc-a423-fed4a81d810c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow'])[1]/following::h1[1]</value>
+      <webElementGuid>8ff32808-ca2a-4446-84ab-9744476c5b7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h1</value>
+      <webElementGuid>0078a287-f8f2-44ad-8e0d-919d2e5c2fc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[@id = 'title' and (text() = '   The Muqaddimah: An Introduction to History - Abridged Edition (Princeton Classics, 13)     Paperback – Abridged, April 27, 2015   ' or . = '   The Muqaddimah: An Introduction to History - Abridged Edition (Princeton Classics, 13)     Paperback – Abridged, April 27, 2015   ')]</value>
+      <webElementGuid>98054ec3-4f07-4390-930b-db4457e2c050</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
